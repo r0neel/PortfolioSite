@@ -4,7 +4,28 @@ header {
   justify-content: center;
   text-align: center;
   width: 100vw;
-  height: 50vh;
+  height: 100vh;
   background-color: rgb(203, 161, 243);
-  margin: auto;
+  margin: 0;
+}
+
+#explore {
+  margin: 20px;
+  font-family: inherit;
+  align-self: center;
+  width: auto;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  z-index: 1;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(221, 196, 245, 1);
+}
+
+#explore:hover {
+  background-color: rgba(221, 196, 245, 0.5);
 }
