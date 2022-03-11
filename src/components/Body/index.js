@@ -1,7 +1,13 @@
 import React from "react";
-
+import "./style.css";
 const Body = () => {
-  return <h1> Hi </h1>;
+  return (
+    <>
+      <div id="body">
+        <h1> stuff </h1>;<p> {"<<<<<<<<<<<< UNDER CONSRUCTION >>>>>>>>>>>>"}</p>
+      </div>
+    </>
+  );
 };
 
 export default Body;
