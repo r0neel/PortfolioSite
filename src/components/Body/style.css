@@ -9,32 +9,48 @@ header {
   margin: 0;
 }
 
-#explore {
-  margin: 20px;
-  font-family: inherit;
-  align-self: center;
-  width: auto;
-  font-size: 20px;
-  font-weight: 200;
-  letter-spacing: 1px;
-  padding: 13px 50px 13px;
-  outline: 0;
-  z-index: 1;
-  border: 1px solid black;
-  cursor: pointer;
-  position: relative;
-  background-color: rgba(221, 196, 245, 1);
-}
-
-#explore:hover {
-  background-color: rgba(221, 196, 245, 0.5);
-}
-
 .mainBody {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: auto;
+  margin: 0;
+  background-color: rgb(161, 213, 243);
+}
+button {
+  margin: 20px;
+  font-family: inherit;
+  width: auto;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: 0;
+  font-weight: 200;
+  font-size: 20px;
+  background-color: rgba(221, 196, 245, 1);
+}
+#explore {
+  border: 1px solid black;
+  align-self: center;
+  padding: 13px 50px 13px;
+  position: relative;
+}
+
+#explore:hover {
+  background-color: rgba(221, 196, 245, 0.5);
+}
+
+div {
+  display: flex;
+  position: sticky;
+  float: right;
+  bottom: 5px;
+}
+
+.top {
+  margin: 1rem;
+  padding-top: 4px;
+  padding: auto;
+  width: 2rem;
+  border: 1px solid;
 }

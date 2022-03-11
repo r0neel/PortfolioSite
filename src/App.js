@@ -5,8 +5,10 @@ import "./style.css";
 const App = () => {
   return (
     <>
-      <Body />
-      <Footer />
+      <section>
+        <Body />
+        <Footer />
+      </section>
     </>
   );
 };
