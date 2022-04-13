@@ -54,3 +54,7 @@ div {
   width: 2rem;
   border: 1px solid;
 }
+
+#topButton {
+  margin: 1rem;
+}

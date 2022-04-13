@@ -31,7 +31,7 @@ const Body = () => {
           <Content />
         </div>
       </article>
-      <div>
+      <div id="topButton">
         <button className="top" onClick={handleTop}>
           <FontAwesomeIcon icon="fa-solid fa-chevron-up" />
         </button>
